@@ -35,7 +35,7 @@ function Teslaaccount() {
 
         <div className="teslaaccount__body">
             <div className="container" >
-                <a>
+                <a href="#">
                     <img src="/images/logo.svg" alt="" />
                 </a>
                 <div className="menu" >
@@ -60,10 +60,10 @@ function Teslaaccount() {
                         <li key={index} ><a href="#">{car}</a></li>
                     )
                     )}
-                    <li><a href="#">Existing Inventory</a></li>
-                    <li><a href="#"></a>Used Inventory</li>
-                    <li><a href="#"></a>Trade-in</li>
-                    <li><a href="#"></a>None</li>
+                    <li><a href="/">Existing Inventory</a></li>
+                    <li><a href="/"></a>Used Inventory</li>
+                    <li><a href="/"></a>Trade-in</li>
+                    <li><a href="/"></a>None</li>
                 </BurgerNav>
             </div>  
       
@@ -71,10 +71,10 @@ function Teslaaccount() {
             <div className="teslaAccount__info">
                 <h4>{user?.displayName + "'s" + " " + "Tesla"}</h4>
             <div className="teslaAccount__infoRight">
-                <Link>Home</Link>
-                <Link>Account</Link>
-                <Link>History</Link>
-                <Link onClick={logoutOfApp} >Sign Out</Link>
+                <Link to="/" >Home</Link>
+                <Link to="/" >Account</Link>
+                <Link to="/" >History</Link>
+                <Link to="/" onClick={logoutOfApp} >Sign Out</Link>
                 </div>
             </div >
             <div className="teslaAccount_carImage">
