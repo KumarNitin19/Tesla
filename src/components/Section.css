@@ -1,0 +1,44 @@
+.motor{
+    display: flex;
+    background-size: cover;
+}
+.range{
+    display: grid;
+}
+.power{
+    display: grid;
+}
+.battery{
+    display: grid;
+}
+.speed{
+    display: grid;
+}
+.motor p{
+    color: rgb(36, 36, 36);
+    font-size: 15px;
+    cursor: pointer;
+}
+.motor h4{
+    color: rgb(24, 24, 24);
+    font-size: 30px;
+    cursor: pointer;
+}
+.motor p:hover{
+    color: black;
+    font-weight: 600;
+}
+.motor h4:hover{
+    color: black;
+    font-size: 30.5px;
+}
+@media (max-width: 800px) {
+    .motor h4 {
+      display: none;
+    }
+}
+@media (max-width: 800px) {
+    .motor p {
+      display: none;
+    }
+}

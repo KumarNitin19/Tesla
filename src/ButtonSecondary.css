@@ -1,0 +1,31 @@
+.buttonSecondary{
+    background-color: white;
+    border-radius: 3px solid #171a20;
+    width: 100%;
+    padding: 10px 40px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color:#000000 ;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+    opacity: 0.85;
+}
+.buttonSecondary:hover{
+    background-color: #000000;
+    color: white;
+    opacity: 0.85;
+}
+@media (max-width: 900px) {
+    .buttonSecondary {
+         display: flex;
+         width:70px;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         height:10px;
+        font-size: 6px;
+        margin-top:0px;
+    }
+ }

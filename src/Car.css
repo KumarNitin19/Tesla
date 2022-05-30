@@ -1,0 +1,52 @@
+.Car{
+    display: grid;
+    place-items: center;
+    border-top: 1px solid rgb(180, 180, 180);
+    margin: -21px 0px;
+}
+@media (max-width: 900px) {
+    .Car h2{
+         font-size:15px ;
+         color: rgb(255, 255, 255);
+    }
+ }
+.Car__image img{
+      object-fit: contain;
+      width: 100vw;
+}  
+@media (max-width: 900px) {
+    .Car__image img {
+         height: 100%;
+         width: 100%;
+    }
+ }
+
+.Car__model{
+    font-weight: 500;
+    font-size: xx-large;
+    margin-top: -180px;
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+.Car__actions{
+    display: flex;
+    align-items: center;
+    gap:20px ;
+    margin-top: -62px;
+    color: white;
+}
+.Car__actions button{
+    width: 230px;
+    margin-bottom: 30px;
+}
+@media (max-width: 900px) {
+    .Car__actions button {
+        display:flex;
+        width:35px;
+       font-size: 6px;
+       margin-top:0px;
+       align-items: center;
+       justify-content: center;
+    }
+ }
+
